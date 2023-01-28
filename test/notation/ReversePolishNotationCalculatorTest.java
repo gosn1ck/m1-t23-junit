@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class ReversePolishNotationCalculatorTest {
 
-    private static ReversePolishNotationCalculator calculator = new ReversePolishNotationCalculator();
+    private static final ReversePolishNotationCalculator calculator = new ReversePolishNotationCalculator();
 
     @Test
     public void shouldCalculateAddition() {
